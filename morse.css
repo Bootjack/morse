@@ -1,0 +1,36 @@
+body {
+	background: rgb(90,90,90);
+}
+
+#container {
+	background: rgb(200,200,200);
+	border: 1px solid black;
+	margin: 1em auto;
+	overflow: hidden;
+	padding: 1em;
+	width: 70%;
+}
+
+#container span {
+	margin: 0 1em;
+}
+
+#bulb {
+	background: rgb(50,50,50);
+	border: 2px solid black;
+	border-radius: 1.24em;
+	box-shadow: 0 0 6px gray;
+	color: rgb(120,120,120);
+	float: right;
+	font-family: 'Arial', sans-serif;
+	height: 1.5em;
+	padding-top: 0.5em;
+	text-align: center;
+	transition: background 1s;
+	width: 2em;
+}
+
+#bulb.on {
+	background: white;
+	border-color: yellow;
+}
